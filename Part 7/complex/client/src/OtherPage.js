@@ -1,11 +1,13 @@
-import React from 'react';
-import { Link } from 'react-reouter-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-export default () => {
-    return (
-        <div>
-            Anda sedang di halaman dummy lainnnya!
-            <Link to="/">Go back home</Link>
-        </div>
-    );
+const OtherPage = () => {
+  return (
+    <div>
+      Im some other page!
+      <Link to="/">Go back home</Link>
+    </div>
+  );
 };
+
+export default OtherPage;
